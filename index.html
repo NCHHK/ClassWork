@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Confirmation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login Confirmation Page</h1>
+        
+        <form id="login-form">
+            <div class="input-group">
+                <label for="username">Enter the username:</label>
+                <input type="text" id="username" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="password">Enter the password:</label>
+                <input type="password" id="password" required>
+                <small class="hint">Password must be: 12*Ba</small>
+            </div>
+            
+            <button type="submit">Confirm Login</button>
+        </form>
+        
+        <div id="message" class="message-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
